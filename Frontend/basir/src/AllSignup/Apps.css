@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.basmain{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.basf{
+  height: 330px;
+  width: 250px;
+  background-color:rgb(248, 245, 245);
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px rgb(216, 212, 212);
+}
+
+
+.baser{
+  color: red;
+  font-size: 15px;
+}
+.basallinput{
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+
+}
+#kam{
+  height: 26px;
+  width: 90%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.basp1{
+  font-size: 30px;
+  font-weight: 40px;
+  margin: 10px;
+}
+
+.kamkar{
+  height: 30px;
+  width: 80%;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #17dcee;
+}
+
+
+.kamkar:hover{
+  background-color: #101010;
+  color: wheat;
+  cursor: pointer;
+  
+}
+.haml{
+  color: #17dcee;
+  font-size: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  }

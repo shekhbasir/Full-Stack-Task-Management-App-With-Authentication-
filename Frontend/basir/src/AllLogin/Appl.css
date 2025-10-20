@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.basmain1{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.basf1{
+  height: 250px;
+  width: 300px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px rgb(201, 196, 196);
+
+}
+.basp6{
+  margin-left: 40%;
+  font-size: 27px;
+}
+.basf2{
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+#kam2{
+  height: 25px;
+  width: 80%;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.fi1{
+  margin-top: 30px;
+}
+#il1{
+  height: 30px;
+  width: 70%;
+  border-radius: 7px;
+  background-color: #0cdbf6;
+  cursor: pointer;
+}
+#il1:hover{
+  background-color: #101010;
+  color: white;
+}
+.basp3{
+  color: red;
+    margin-left: 30%;
+    font-size: 15px;
+}
+.baak1{
+  font-size: 15px;
+  cursor: pointer;
+  color: rgb(9, 163, 163);
+}
